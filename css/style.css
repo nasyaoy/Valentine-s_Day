@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(255, 234, 241);
+}
+
+.container {
+    height: 100%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat_img {
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 2px;
+}
+
+.text {
+    font-size: 13px;
+    font-family: 'Single Day', cursive;
+    color: rgb(255, 182, 209);
+}
+
+button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    width: 35px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnYes {
+    background-color: rgb(180, 255, 105);
+    border: 2px solid rgb(168, 228, 108);
+    color: rgb(85, 121, 50);
+    margin-right: 7px;
+}
+
+#btnNo {
+    background-color: rgb(255, 91, 123);
+    border: 2px solid rgb(236, 85, 115);
+    color: rgb(154, 45, 67);
+}
+
+
+/*@media (max-width: ) - адаптив*/
